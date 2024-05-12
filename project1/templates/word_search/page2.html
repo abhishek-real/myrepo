@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word_search</title>
+</head>
+<body>
+    <h1>Enter the word to search</h1>
+    <form action="" method="post">
+
+        {% csrf_token %}
+        <label for="">Enter word to search</label>
+        <textarea name="words" id="words" rows ="5" cols ="200" placeholder="Enter word"></textarea>
+        <br>
+        
+        <button type="submit">submit</button>
+        
+    </form>
+    <br>
+    <span>{{word}} present in paragraph: </span>
+    {%for i in para %}
+    {{i}},
+    {%endfor%}
+    
+</body>
+</html>

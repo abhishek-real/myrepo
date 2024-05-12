@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paragraphs</title>
+</head>
+<body>
+    <h1>Hi, you are now loged in </h1>
+    <form action="" method="post">
+
+        {% csrf_token %}
+        <label for="">Enter/paste multi lines in which paragraph is seprated by \n\n and words are seprated by whitespace</label>
+        <textarea name="lines" id="lines" rows ="15" cols ="200" placeholder="Enter Lines"></textarea>
+        
+        <br>
+        <button type="submit">submit</button>
+        
+    </form>
+    
+</body>
+</html>
