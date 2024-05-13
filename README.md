@@ -40,3 +40,11 @@ To deploy this project run
   python manage.py runserver
 ```
 
+
+![image](https://github.com/abhishek-real/myrepo/assets/142781294/0d130172-6b69-4f77-8ec1-06b7d6d3f863)
+![image](https://github.com/abhishek-real/myrepo/assets/142781294/963f532a-db7a-480a-ad74-763b2d868bd2)
+![image](https://github.com/abhishek-real/myrepo/assets/142781294/7852f46d-397e-4cef-82db-1cb5499ea14e)
+![image](https://github.com/abhishek-real/myrepo/assets/142781294/4d3e8f78-6157-46b7-868c-4bda83982829)
+
+
+
